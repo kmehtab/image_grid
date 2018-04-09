@@ -8,19 +8,26 @@ body{
 
 @media screen and (max-width: 768px) {
   .main-title{
-      font-size:50px;
+      font-size:41px;
   }
 }
 
 .jumbotron{
   color: #2c3e50;
+  padding: 1rem;
+}
+
+@media (min-width: 576px){
+   .jumbotron {
+    padding: 2rem 2rem;
+}
 }
 
 @media screen and (max-width: 768px) {
   #nav #nav-brand{
       font-size:20px;
   }
-  
+
 }
 
 .navbar-header{
