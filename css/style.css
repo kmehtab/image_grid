@@ -17,6 +17,12 @@ body{
   padding: 1rem;
 }
 
+.display-3 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 @media (min-width: 576px){
    .jumbotron {
     padding: 2rem 2rem;
