@@ -1,18 +1,32 @@
 body{
   background-color:#ecf0f1;
 }
+
 .title{
   letter-spacing: 0.1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .main-title{
+      font-size:50px;
+  }
+}
+
 .jumbotron{
   color: #2c3e50;
 }
-h1{
-  font-size: 2%;
+
+@media screen and (max-width: 768px) {
+  #nav #nav-brand{
+      font-size:20px;
+  }
+  
 }
+
 .navbar-header{
   color: #2c3e50;
 }
+
 img{
   width: 350px;
   margin-bottom: 8%;
